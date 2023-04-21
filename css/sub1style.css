@@ -45,8 +45,9 @@ img {
   height: 900px;
 }
 .Awrap > h2 {
+  text-align: right;
   font-size: 22px;
-  margin: 40px 0 20px 0;
+  margin: 40px 131px 20px 0;
 }
 .Awrap > hr {
   margin-top: 50px;
@@ -106,8 +107,9 @@ img {
   height: 900px;
 }
 .Cwrap > h2 {
+  text-align: right;
   font-size: 22px;
-  margin: 40px 0 20px 0;
+  margin: 40px 237px 20px 0;
 }
 .CtxtWrap {
   display: flex;
