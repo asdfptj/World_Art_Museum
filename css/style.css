@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Jost:wght@300&family=Playfair+Display:ital@0;1&display=swap");
+* {
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Jost", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+.wrap {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  height: 100px;
+  display: flex;
+}
+
+header h1 {
+  width: 200px;
+  height: 40px;
+  margin-top: 28px;
+}
+
+header nav {
+  width: 600px;
+  margin: 0 0 0 370px;
+}
+
+header nav > ul {
+  display: flex;
+}
+
+header ul a {
+  color: black;
+  display: block;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+}
+
+li.lv1 {
+  position: relative;
+  width: 25%;
+  margin-top: 26px;
+}
+
+li.lv1 > a {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+ul.lv2 {
+  position: absolute;
+  width: 100%;
+  z-index: 998;
+  display: none;
+}
+
+li.lv1:hover > a {
+  background: #e7e3e3;
+  background-color: rgb(218, 218, 218); /*까만색(0,0,0) 20% 불투명도*/
+}
+ul.lv2 li:hover a {
+  color: white;
+  background: #9c9d98;
+  background-color: rgba(0, 0, 0, 0.5); /*까만색(0,0,0) 20% 불투명도*/
+}
+
+.logo {
+  width: 300px;
+  margin: -25px 0 0 150px;
+}
+
+/*  이미지 슬라이드 */
+.slideContainer {
+  display: flex;
+  width: 1000px;
+  height: 600px;
+  overflow: hidden;
+  margin: 15px 0 0 150px;
+}
+
+.slideWrap > ul {
+  display: flex;
+}
+
+.slideWrap .slide {
+  margin: 0 auto;
+  position: relative;
+}
+
+.slide > img {
+  width: 1000px;
+  height: 600px;
+}
+
+.content {
+  width: 1200px;
+  display: flex;
+}
+
+.second {
+  width: 1000px;
+  height: 700px;
+  margin: 0 0 0 150px;
+}
+.second > hr {
+  border-top: 3px solid #bbb;
+  border-bottom: 1px solid #fff;
+  margin-top: 60px;
+}
+hr:after {
+  display: block;
+  margin-top: 2px;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #fff;
+}
+
+.second > h3 {
+  margin: 90px 0 -35px 0;
+  font-size: 23px;
+}
+.comentImg1 {
+  width: 400px;
+  margin: 60px 0 0 0;
+  z-index: 999;
+  height: 600px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px #000;
+}
+.comentImg2 {
+  z-index: 0;
+  width: 400px;
+  margin: 120px 0 0 -330px;
+  height: 600px;
+  border-radius: 4px;
+  filter: brightness(70%);
+  /* box-shadow: 5px 5px 5px #000; */
+}
+.comment {
+  display: flex;
+}
+.commentWrap {
+  display: inline-block;
+}
+.commentWrap > a {
+  color: black;
+  line-height: 30px;
+  margin: 50px 0 0 0;
+  display: flex;
+}
+.comm1 {
+  margin: 90px 0 0 70px;
+  line-height: 30px;
+  font-weight: 900;
+}
+.comm1 > a {
+  font-size: 19px;
+}
+.comm2 {
+  width: 200px;
+  margin: 90px 0 0 260px;
+}
+.commentWrap > button {
+  margin: 90px 0 0 260px;
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+
+.third {
+  width: 1000px;
+  height: 950px;
+  overflow: hidden;
+  margin: 0 0 0 150px;
+}
+.third > hr {
+  margin: 0 0 -30px 0;
+  border-top: 3px solid #bbb;
+  border-bottom: 1px solid #fff;
+  margin-top: 60px;
+}
+
+.third > h3 {
+  margin: 90px 0 -29px 0;
+  font-size: 23px;
+}
+.painting {
+  display: flex;
+}
+.pain1 {
+  width: 400px;
+  height: 600px;
+  margin: 100px 0 0 20px;
+}
+.pain2 {
+  width: 400px;
+  height: 600px;
+  margin: 100px 0 0 75px;
+}
+footer {
+  height: 300px;
+  overflow: hidden;
+  background: #2c2c2c;
+  color: #9c9d98;
+  display: flex;
+}
+.f_div {
+  margin: 0 auto;
+  justify-content: center;
+}
+.f_div > h3 {
+  margin: 0 0 0 70px;
+  font-size: 23px;
+  color: #9c9d98;
+}
+.f_div > h3 > button {
+  margin: 30px 0 0 685px;
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  background-color: #9c9d98;
+}
+.hr1 {
+  margin: 20px 50px 20px 70px;
+}
+.hr2 {
+  margin: 50px 0 0 70px;
+  width: 30px;
+}
+.hr3 {
+  margin: 0 0 0 300px;
+  width: 30px;
+}
+.hr4 {
+  margin: 0 0 0 700px;
+  width: 30px;
+}
+footer p {
+  color: #9c9d98;
+}
+.ft1 {
+  margin: 10px 0 0 70px;
+}
+.ft2 {
+  margin: -40px 0 0 300px;
+}
+.ft3 {
+  margin: -40px 0 0 700px;
+}
+.cpr {
+  color: white;
+  margin: 10px 0 0 70px;
+}
+
+.inDetails {
+  width: 1000px;
+  height: 1600px;
+  overflow: hidden;
+  margin: 0 0 0 150px;
+}
+.inDetails > h3 {
+  margin: 90px 0 30px 0;
+  font-size: 23px;
+}
+.inDetails > h3 > button {
+  margin: 90px 0 0 760px;
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+.c15 {
+  margin: 50px 0 0 100px;
+  display: flex;
+}
+.c15 > img {
+  width: 300px;
+}
+.c15 > p {
+  height: 110px;
+  text-align: left;
+  font-size: 26px;
+  font-weight: bolder;
+  margin: 140px 0 0 10px;
+}
+
+.c17 {
+  margin: -100px 0 0 500px;
+  display: flex;
+}
+.c17 > img {
+  width: 300px;
+}
+.c17 > p {
+  height: 110px;
+  text-align: right;
+  font-size: 26px;
+  font-weight: bolder;
+  margin: 150px 10px 0 0;
+}
+
+.c18 {
+  margin: -140px 0 0 100px;
+  display: flex;
+}
+.c18 > img {
+  width: 300px;
+}
+.c18 > p {
+  height: 110px;
+  text-align: left;
+  font-size: 26px;
+  font-weight: bolder;
+  margin: 130px 0 0 10px;
+}
+.c20 {
+  margin: 75px 0 0 431px;
+  display: flex;
+}
+.c20 > img {
+  width: 300px;
+}
+.c20 > p {
+  height: 110px;
+  text-align: right;
+  font-size: 26px;
+  font-weight: bolder;
+  margin: 70px 10px 0 0;
+}
+
+.third > h3 > button {
+  margin: 0 0 0 740px;
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
