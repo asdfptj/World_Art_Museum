@@ -188,7 +188,7 @@ hr:after {
 
 .third {
   width: 1000px;
-  height: 950px;
+  height: 600px;
   overflow: hidden;
   margin: 0 0 0 150px;
 }
@@ -206,15 +206,22 @@ hr:after {
 .painting {
   display: flex;
 }
+.far {
+  font-size: 30px;
+  margin: -360px 0 0 180px;
+}
+.middle {
+  font-size: 30px;
+  margin: -43px 0 0 690px;
+}
 .pain1 {
-  width: 400px;
-  height: 600px;
-  margin: 100px 0 0 20px;
+  width: 450px;
+
+  margin: 100px 0 0 0;
 }
 .pain2 {
-  width: 400px;
-  height: 600px;
-  margin: 100px 0 0 75px;
+  width: 450px;
+  margin: 100px 0 0 80px;
 }
 footer {
   height: 300px;
