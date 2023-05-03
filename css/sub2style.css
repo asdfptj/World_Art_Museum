@@ -48,7 +48,6 @@ img {
 }
 .farEast > p {
   margin-top: 20px;
-  font-weight: bolder;
   line-height: 30px;
 }
 .f1 {
@@ -74,9 +73,46 @@ img {
 .f6 {
   height: 400px;
   margin: -45px 0 0 20px;
-  width: 630px;
+  width: 640px;
 }
 
+.middleEast {
+  height: 1600px;
+}
+.middleEast > h2 {
+  font-size: 22px;
+  margin: 40px 131px 20px 0;
+}
+.middleEast > p {
+  margin-top: 20px;
+  line-height: 30px;
+}
+.m1 {
+  margin: 10px 0 0 0;
+  height: 410px;
+}
+.m2 {
+  margin: 10px 0 0 15px;
+  height: 410px;
+}
+.m3 {
+  margin: 20px 0 0 0;
+  height: 350px;
+}
+.m4 {
+  margin: 20px 0 0 15px;
+  width: 471px;
+  height: 500px;
+}
+.m5 {
+  margin: -130px 0 0 0;
+  height: 496px;
+}
+.m6 {
+  margin: 20px 0 0 15px;
+  width: 471px;
+  height: 346px;
+}
 footer {
   height: 300px;
   overflow: hidden;
