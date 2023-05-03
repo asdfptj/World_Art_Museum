@@ -40,7 +40,7 @@ img {
   font-size: 30px;
 }
 .farEast {
-  height: 900px;
+  height: 1200px;
 }
 .farEast > h2 {
   font-size: 22px;
@@ -51,25 +51,29 @@ img {
 .farImg > img {
 }
 .f1 {
-  margin: 10px 0 0 10px;
+  margin: 10px 0 0 0;
   height: 200px;
 }
 .f2 {
   margin: 230px 0 0 -335px;
-  height: 348px;
+  height: 350px;
 }
 .f3 {
   margin: 10px 0 0 15px;
-  height: 569px;
+  height: 500px;
 }
 .f4 {
-  height: 400px;
+  margin: 10px 0 0 15px;
+  height: 500px;
 }
 .f5 {
-  height: 400px;
+  height: 340px;
+  margin: 15px 0 0;
 }
 .f6 {
   height: 400px;
+  margin: -45px 0 0 20px;
+  width: 630px;
 }
 
 footer {
