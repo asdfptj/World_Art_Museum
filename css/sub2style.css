@@ -46,9 +46,10 @@ img {
   font-size: 22px;
   margin: 40px 131px 20px 0;
 }
-.farImg {
-}
-.farImg > img {
+.farEast > p {
+  margin-top: 20px;
+  font-weight: bolder;
+  line-height: 30px;
 }
 .f1 {
   margin: 10px 0 0 0;
