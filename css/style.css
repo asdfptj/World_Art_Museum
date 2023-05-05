@@ -191,8 +191,7 @@ hr:after {
 }
 .third {
   width: 1000px;
-  height: 600px;
-  overflow: hidden;
+  height: 500px;
   margin: 0 0 0 150px;
 }
 .third > hr {
@@ -219,12 +218,21 @@ hr:after {
 }
 .pain1 {
   width: 450px;
-
   margin: 100px 0 0 0;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.pain1:hover {
+  transform: scale(1.1);
 }
 .pain2 {
   width: 450px;
   margin: 100px 0 0 80px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.pain2:hover {
+  transform: scale(1.1);
 }
 footer {
   height: 300px;
